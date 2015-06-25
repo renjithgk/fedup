@@ -1,0 +1,7 @@
+[DllImport("user32.dll", SetLastError=true)]
+static extern bool ShutdownBlockReasonDestroy(IntPtr hWnd);
+
+ExitWindowsEx
+
+https://msdn.microsoft.com/en-us/library/windows/desktop/bb394721(v=vs.85).aspx
+
